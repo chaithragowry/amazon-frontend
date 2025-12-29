@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Hide scrollbar by default, show on hover */
+.scrollbar-hide-hover {
+  scrollbar-width: none; 
+  -ms-overflow-style: none; 
+}
+
+.scrollbar-hide-hover::-webkit-scrollbar {
+  display: none; 
+}
+
+.scrollbar-hide-hover:hover {
+  scrollbar-width: thin; 
+  -ms-overflow-style: auto; 
+}
+
+.scrollbar-hide-hover:hover::-webkit-scrollbar {
+  display: block; 
+  width: 8px;
+}
+
+.scrollbar-hide-hover::-webkit-scrollbar-track {
+  background: #f3f4f6;
+  border-radius: 4px;
+}
+
+.scrollbar-hide-hover::-webkit-scrollbar-thumb {
+  background: #d1d5db;
+  border-radius: 4px;
+}
+
+.scrollbar-hide-hover:hover::-webkit-scrollbar-thumb {
+  background: #9ca3af;
+}
