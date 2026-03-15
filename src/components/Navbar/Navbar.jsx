@@ -114,7 +114,7 @@ function Navbar() {
         {/* language selector */}
         <div className="hidden md:flex items-center border border-transparent hover:border-white p-2 cursor-pointer">
           <img
-            src="https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/32px-Flag_of_India.svg.png"
+            src="https://flagcdn.com/w20/in.png"
             alt="IN"
             className="w-6 h-4 mr-1"
           />
